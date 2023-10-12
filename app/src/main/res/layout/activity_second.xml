@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="false"/>
+
+    <!-- Center horizontally -->
+    />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="30dp"
+        android:text="Relative Layout merupakan layout yang mengatur elemen di dalamnya berdasarkan hubungan dengan elemen lainnya. elemen dalam Relative Layout dapat diatur berdasarkan posisi atas, bawah, kiri, kanan dari elemen lain."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/second_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginTop="14dp"
+        android:text="Pada Layout ini, posisi TextView:description sesuai dibawah posisi TextView:title dan diberi margin 20dp. begitu pula dengan TextView:second_description sesuai dengan posisi TextView:description dan diberi margin 14sp. dan juga posisi button dibawah. "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_description"
+        android:layout_marginTop="200dp"
+        android:text="Back"/>
+</RelativeLayout>

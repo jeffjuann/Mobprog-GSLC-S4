@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout merupakan layout yang mengatur elemen dalam satu baris atau kolom. elemen dalam Linear Layout bisa ditata secara horizontal atau vertical secara berurutan"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/second_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pada Layout ini, saya mengatur posisi elemen-elemennya menggunakan Linear Layout. Kata &quot;Linear Layout&quot; ditaruh paling pertama, lalu deskripsi apa itu linear layout, paragraf ini, dan button dibawah ini untuk menuju ke penjelasan Relative Layout "
+        android:textSize="20sp"
+        android:layout_marginTop="14sp"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="28sp"/>
+
+</LinearLayout>
